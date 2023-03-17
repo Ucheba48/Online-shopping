@@ -1,6 +1,34 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
 body {
     margin: 0;
+    background-color: #70d1db;
 }
 .image {
     background: url('./image/online-shopping-cutted.jpg');
+    height: 300px;
+    background-size: contain;
+    background-repeat: inherit;
+
+}
+.container {
+    margin: 0, auto;
+    max-width: 800px;
+    min-width: 480px;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.main menu {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 }
